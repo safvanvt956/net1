@@ -1,0 +1,102 @@
+
+
+.pic2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  
+} 
+.hr{
+    height: 5px;
+ 
+}
+body{
+    background-color: rgb(80, 74, 74);
+   
+}
+
+/* .pa{
+    background-color: black;
+} */
+
+.hi{
+    /* display: flex; */
+    background: black;
+    color: gray;
+}
+/* #footer{
+background-color: black;
+} */
+/* .container-fluid{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+} */
+.first{
+    height: 100vh;
+    background-size: cover;
+    z-index: 2;
+}
+
+.over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgb(22, 22, 22),rgba(27, 4, 4, 0));
+    z-index: 2;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text1 a{
+    color: grey;
+    
+}
+
+/* .type {
+    position: relative; */
+    /* display: flex; */
+    /* width: 50px; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* width: 50; */
+/* } */
+
+/* .three{
+    width: px;
+} */
+
+
+@media(max-width:450px){
+    .first{
+        height: 75vh;
+    }
+    .navbar-brand img{
+        width: 150px;
+        height: 50px;
+    }
+
+    .form-control-sm{
+        height: 20px;
+        width: 200px;
+    }
+  
+  
+    
+} 
+
+
+a{
+    text-decoration: none;
+}
